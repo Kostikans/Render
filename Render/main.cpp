@@ -1,10 +1,15 @@
 #include "Render.h"
-#include <QtWidgets/QApplication>
+#include <QApplication>
+#include <QSurfaceFormat>
 
-int main(int argc, char *argv[])
+int main(int argc, char* argv[])
 {
 	QApplication a(argc, argv);
+
 	Render w;
+    
+	w.setWindowState(Qt::WindowFullScreen);
 	w.show();
+
 	return a.exec();
 }

@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/Shaders">
+        <file>depth.frag</file>
+        <file>depth.geom</file>
+        <file>depth.vert</file>
+        <file>fragmentshader.frag</file>
+        <file>lamp.frag</file>
+        <file>lamp.vert</file>
+        <file>ShadowMapping.frag</file>
+        <file>ShadowMapping.fsh</file>
+        <file>ShadowMapping.vert</file>
+        <file>vertexshader.vert</file>
+    </qresource>
+</RCC>
